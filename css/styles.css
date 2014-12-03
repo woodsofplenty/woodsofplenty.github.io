@@ -1,0 +1,415 @@
+/*
+ * RWD Workshop CSS
+ * 
+ ************************************************************************************************/
+
+
+/*
+ * Reset
+ * 
+ ****************************************************************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } 
+
+
+/*
+ * HTML5
+ * 
+ ********************************************************/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+
+/*
+ * Clearfix Class
+ * 
+ ********************************************************/
+
+.cf { *zoom: 1; }
+.cf:before,
+.cf:after {
+	display: table;
+	content: ""; }
+.cf:after { clear: both; }
+
+
+/*
+ * Color Palette
+ * 
+ ********************************************************/
+
+/*
+#f2a950  -- old lighter orange
+#D3E397  -- new light light green
+
+
+#d96b0b  -- old darker orange
+#D3E397  -- new light light green
+
+#e04828  -- old red [hero-desc]
+#06A2CB  -- new light blue
+
+#a6370f  -- old dark red
+#218559  -- new green
+
+
+
+#731010  -- old dark maroon
+#177F75  -- new dark green
+
+
+#400a0a  -- old dark dark blackish
+#105952  -- new dark dark green
+
+*/
+
+/*
+ * Global Selectors
+ * 
+ ********************************************************/
+
+*,
+*:before,
+*:after { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; }
+
+body {
+
+	font-family: "Arial", Gadget, sans-serif;
+	font-size: 1em;
+	text-align: justify; }
+
+a {
+	color: #270B0C;
+	text-decoration: none; }
+
+a:hover, a:active {
+	text-decoration: underline; }
+
+img {
+	max-width: 100%; 
+}
+
+.logo-img{
+	float: left;
+}
+
+.embed-container {
+	position: relative; padding-bottom: 20px; padding-top: 20px; height: 0; overflow: hidden; max-width: 100%; height: auto; }
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+.center{
+	text-align:center;
+}
+
+/*
+ * Titles
+ * 
+ ********************************************************/
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, ol, ul {
+	margin-bottom: .2em; line-height: 1.5em; color: #333; }
+
+.hfoot{
+	text-align:center;
+}
+
+.text-link{
+	text-decoration:underline;
+}
+
+h1, .h1 {
+    margin-bottom: .6em; text-transform: uppercase; font-size: 1.3125em; text-align:left;}
+
+h2, .h2 {
+    text-transform: uppercase; line-height: 1.2em; font-size: 2em; color: #218559; text-align:left; }
+
+h3, .h3 {
+    margin-bottom: .6em; text-transform: uppercase; font-size: 2.2em; }
+
+h4, .h4 {
+    margin-bottom: .6em; font-size: 1.125em; color: #218559; }
+
+h5, .h5 {
+    margin-bottom: .2em; color: #105952; }
+
+
+.container-site {
+	margin: 0 auto;
+	max-width: 960px; /* container */ }
+
+
+.btn {
+	display: block; margin: 0 auto 1em auto; border-radius: 20px; padding:  10px; max-width: 320px; width: 100%; background-color: #177F75; line-height: 40px; text-align: center; text-decoration: none; font-size: 1.125em; color: white; -webkit-transition: background-color #BDD6BD; }
+
+.btn:hover {
+    background-color: #105952; text-decoration: none; }
+
+
+/*
+ * Content Regions
+ * 
+ ****************************************************************************/
+
+/*
+ * Header
+ * 
+ ********************************************************/
+
+header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: center; }
+
+.logo { display: inline-block; max-width: 1457px; width: 100%; /* 260/320 */ img-align: center}
+
+
+/*
+ * Primary Nav
+ * 
+ ********************************************************/
+
+.container-nav { margin-bottom: 0.2em; background: #218559; }
+
+.list-nav { display: block; margin: 0; width: 100%; list-style-type: none; }
+.list-nav li {
+	float: left; display: block; border: 1px solid #FFFFFF; width: 50%; }
+.list-nav a {
+	display: block; padding: 0 2.08333333%; /* 20/960 */ text-align: center; line-height: 50px; font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: .875em; color: #fff; -webkit-transition: background-color 0.2s linear; }
+.list-nav a:hover {
+    background-color: #3a2e1a; text-decoration: none; }
+
+.odd { border-right: 1px solid #FFFFFF; }/* #177F75*/
+
+.selected a{
+	background-color:#3a2e1a;
+}
+/*
+.paragraph-text{
+	float: left;
+	width: 70%;
+}
+.paragraph-image{
+	float: right;
+}*/
+
+/*
+ * Banner
+ * 
+ ********************************************************/
+
+.banner { -webkit-box-shadow:
+ 0 0 10px rgba( 0, 0, 0, .5 ); padding: 0px ; /* 20/960 */ background: #BDD6BD; text-align: center; }
+
+.banner p { color: #fff; }
+
+.hero-desc { }
+
+.hero-img { }
+
+.center-button {text-align:center;}
+
+/*
+ * Main Content
+ * 
+ ********************************************************/
+
+.container-content { margin: 20px auto; background-color: #fff;}
+
+main, .head-main { padding: 0px 2.08333333%; }
+
+
+.aside-image{
+	text-align:center;
+	padding-top:10px;
+}
+
+/*
+ * Complementary Content
+ * 
+ ********************************************************/
+
+aside { padding: 0px 2.08333333%; }
+
+
+/*
+ * Footer
+ * 
+ ********************************************************/
+
+footer { background: #3A7C39; text-align: center; color: #fff; }
+
+.span6col { padding: 20px 2.08333333%; /* 20/960 */ }
+
+.container-social {  }
+
+.container-legal { }
+
+small { font-size: .75em; }
+
+
+/*
+ * Social List
+ *  
+ ********************************************************/
+
+.list-social {
+	font-size: 0; }
+.list-social li {
+	display: inline-block; margin-left: 5px; }
+.list-social li:first-child {
+	margin-left: 0; }
+.list-social a {
+	display: block; border-radius: 18px; width: 35px; height: 35px; background: #3a7c39 url( '../images/sprite-ui.png' ) no-repeat 0 0; -webkit-transition: background-color 0.2s linear; }
+.list-social a:hover {
+	background-color: #270B0C; }
+
+.list-social .social-twitter { /* default position */ }
+.list-social .social-facebook { background-position: 0 -35px; }
+.list-social .social-email { background-position: 0 -70px; }
+
+
+/*
+ * Media Query Builds
+ * 
+ ********************************************************/
+
+@media screen and (min-width: 480px) {
+	/* looking good! */
+}
+
+@media screen and (min-width: 768px) {
+	
+	/*
+	 * Primary Nav
+	 * 
+	 ********************************************************/
+	
+	.list-nav { display: table; }
+	.list-nav li {
+		float: none; display: table-cell; border-left: 1px solid #ffffff; border-bottom: none; width: auto; }
+	.list-nav li:first-child {
+		border-left: none; }
+
+	.odd { border-right: none; }
+	
+	
+	/*
+	 * Main Content
+	 * 
+	 ********************************************************/
+	
+	main img { margin-right: 3.125%; /* 20/640 */ float: left; }
+	
+	/*
+	 * Complementary Content
+	 * 
+	 ********************************************************/
+	
+	 
+	
+	
+	/*
+	 * Before after
+	 * 
+	 ********************************************************/
+	
+	<link type="text/css" src="css/SlideScreen.css" /> 
+	
+	
+	
+	/*
+	 * Footer
+	 * 
+	 ********************************************************/
+	
+	.span6col { float: left; width: 50%; /* 480/960 */ }
+	
+	.container-social { text-align: left; }
+	
+	.container-legal { text-align: right; }
+}
+
+@media screen and (min-width: 960px) {
+	
+	/*
+	 * Titles
+	 * 
+	 ********************************************************/
+	
+	h2, .h2 {
+		background-color: #3A2E1A; color: #fff; }
+		
+	.container-nav { margin-bottom: 5px; }
+		
+		h3, .h3 {
+		text-align: left; /* 40/640 */  /* 20/640 */ background-color: #3A2E1A; color: #fff; }
+
+	
+	/*
+	 * Header
+	 * 
+	 ********************************************************/
+	
+	 header { text-align: left; }
+
+	
+	/*
+	 * Primary Nav
+	 * 
+	 ********************************************************/
+	
+	.list-nav li a {
+		font-size: 1em; }
+	
+	
+	/*
+	 * Banner
+	 * 
+	 ********************************************************/
+	
+	 .banner { text-align: center; }
+	
+	 .hero-desc { float: left; margin-right: 2.17391304%; /* 20/920 */; width: 50%; /* 460/920 */ }
+	
+	 .hero-img { float:none; width: 100%; /* 440/920 */ }
+
+	
+	/*
+	 * Main Content
+	 * 
+	 ********************************************************/
+
+	 main { float: left; width: 50%; /* 640/960 */ }
+	
+	
+	/*
+	 * Complementary Content !Padding changes all sidebar content!
+	 * 
+	 ********************************************************/
+	
+	 aside { float: left;  padding: 0 2.08333%; width: 50%; }
+}
+
+@media screen and (min-width: 1200px) {
+	
+	/* keep on going */
+}
+
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) { 
+	
+	/*
+	 * Social List
+	 *  
+	 ********************************************************/
+
+	.list-social a {
+		background-image url( '../images/sprite-ui@2x.png' ); background-size: 35px 105px; }
+}
+
