@@ -222,6 +222,9 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
 
 main, .head-main { padding: 0px 2.08333333%; }
 
+.full-screen-img-mobile{
+	padding: 0px;
+}
 
 .aside-image{
 	text-align:center;
@@ -297,6 +300,11 @@ small { font-size: .75em; }
 
 	.odd { border-right: none; }
 	
+	.full-screen-img-mobile{
+		padding: 0px 2.08333333%;
+	}
+}
+
 	
 	/*
 	 * Main Content
@@ -400,10 +408,7 @@ small { font-size: .75em; }
 	/* keep on going */
 }
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) { 
-	
+@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) { 
 	/*
 	 * Social List
 	 *  
