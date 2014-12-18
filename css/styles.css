@@ -106,6 +106,12 @@ img {
 .center{
 	text-align:center;
 }
+.alignleft{
+	float:left;
+}
+.alignright{
+	float:right;
+}
 
 /*
  * Titles
@@ -115,7 +121,7 @@ img {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6,
 p, ol, ul {
-	margin-bottom: .2em; line-height: 1.5em; color: #333; }
+	margin-bottom: .2em; line-height: 1.5em; /*color: #333;*/ }
 
 .hfoot{
 	text-align:center;
@@ -126,7 +132,7 @@ p, ol, ul {
 }
 
 h1, .h1 {
-    margin-bottom: .6em; text-transform: uppercase; font-size: 1.3125em; text-align:left;}
+    margin-bottom: .6em; text-transform: uppercase; font-size: 1.3125em; text-align:left; font-weight: bold;}
 
 h2, .h2 {
     text-transform: uppercase; line-height: 1.2em; font-size: 2em; color: #218559; text-align:left; }
