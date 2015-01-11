@@ -136,7 +136,7 @@ p, ol, ul {
 }
 
 h1, .h1 {
-    margin-bottom: 0.1em; margin-top: 0.1em; text-transform: uppercase; color: #3A2E1A; font-size: 1.3125em; text-align:left; font-weight: bold;}
+    margin-bottom: 0.1em; text-transform: uppercase; color: #3A2E1A; font-size: 1.3125em; text-align:left; font-weight: bold;}
 
 h2, .h2 {
     text-transform: uppercase; line-height: 1.2em; font-size: 1.6em; color: #3A2E1A; text-align:left; }
@@ -183,7 +183,7 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
  * 
  ********************************************************/
 
-.container-nav { margin-bottom: 0.2em; background: #218559; }
+.container-nav { margin-bottom: 0.4em; background: #218559; }
 
 .list-nav { display: block; margin: 0; width: 100%; list-style-type: none; }
 .list-nav li {
