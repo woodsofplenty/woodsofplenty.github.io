@@ -183,7 +183,7 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
  * 
  ********************************************************/
 
-.container-nav { margin-bottom: 0.4em; background: #218559; }
+.container-nav { margin-bottom: 0.5em; background: #218559; }
 
 .list-nav { display: block; margin: 0; width: 100%; list-style-type: none; }
 .list-nav li {
