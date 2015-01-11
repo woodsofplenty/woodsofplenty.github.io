@@ -79,7 +79,8 @@ body {
 
 	font-family: century gothic, sans-serif;
 	font-size: 1em;
-	text-align: justify; }
+	text-align: justify; 
+	color: #270B0C;}
 
 a {
 	color: #270B0C;
@@ -133,10 +134,10 @@ p, ol, ul {
 }
 
 h1, .h1 {
-    margin-bottom: 0.1em; text-transform: uppercase; font-size: 1.3125em; text-align:left; font-weight: bold;}
+    margin-bottom: 0.1em; text-transform: uppercase; color: #270B0C; font-size: 1.3125em; text-align:left; font-weight: bold;}
 
 h2, .h2 {
-    text-transform: uppercase; line-height: 1.2em; font-size: 2em; color: #218559; text-align:left; }
+    text-transform: uppercase; line-height: 1.2em; font-size: 1.6em; color: #270B0C; text-align:left; }
 
 h3, .h3 {
     margin-bottom: .6em; text-transform: uppercase; font-size: 2.2em; }
@@ -356,7 +357,7 @@ small { font-size: .75em; }
 	 ********************************************************/
 	
 	h2, .h2 {
-		background-color: #3A2E1A; color: #fff; }
+		background-color: #3A2E1A; color: #fff; font-size: 2em;}
 		
 	.container-nav { margin-bottom: 5px; }
 		
