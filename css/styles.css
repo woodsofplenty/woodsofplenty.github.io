@@ -109,9 +109,9 @@ img {
 
 
 .responsive-container { 
-	position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; width: 80vw; margin: auto; overflow: hidden; }
+	position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; width: 80vw; max-width: 800px; margin: auto; overflow: hidden; }
 .responsive-container iframe { 
-	position: absolute; top: 0; left: 0; width: 80vw; height: calc((9/16)*80vw); }
+	position: absolute; top: 0; left: 0; width: 80vw; max-width: 800px; height: calc((9/16)*80vw); max-height: 450px; }
 
 
 
