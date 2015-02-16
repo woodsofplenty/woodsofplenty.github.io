@@ -231,6 +231,8 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
 
 .hero-img { }
 
+.hero-phase { }
+
 .center-button {text-align:center;}
 
 /*
@@ -303,6 +305,8 @@ small { font-size: .75em; }
 
 @media screen and (min-width: 480px) {
 	/* looking good! */
+
+
 }
 
 @media screen and (min-width: 768px) {
@@ -322,9 +326,12 @@ small { font-size: .75em; }
 	
 	.full-screen-img-mobile{
 		padding: 0px 2.08333333%;
+
 	}
 
-	
+		
+
+
 	/*
 	 * Main Content
 	 * 
@@ -404,6 +411,8 @@ small { font-size: .75em; }
 	 .hero-desc { float: left; margin-right: 2.17391304%; /* 20/920 */; width: 50%; /* 460/920 */ }
 	
 	 .hero-img { float:none; width: 100%; /* 440/920 */ }
+
+	 .hero-phase { float:none; width: 100%; /* 440/920 */ }
 
 	
 	/*
