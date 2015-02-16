@@ -233,7 +233,7 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
 
 .hero-phase_big { display: none;}
 
-.hero-phase_small { }
+.hero-phase_small { display: block; margin-left: 60px; margin-right: auto}
 
 .center-button {text-align:center;}
 
