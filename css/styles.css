@@ -295,9 +295,9 @@ small { font-size: .75em; }
 .list-social a:hover {
 	background-color: #270B0C; }
 
-.list-social .social-twitter { /* default position */ }
-.list-social .social-facebook { background-position: 0 -35px; }
-.list-social .social-email { background-position: 0 -70px; }
+.list-social .social-photos { /* default position */ }
+.list-social .social-email { background-position: 0 -35px; }
+.list-social .social-twitter { background-position: 0 -70px; }
 
 
 /*
