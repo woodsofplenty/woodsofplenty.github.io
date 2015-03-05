@@ -465,6 +465,6 @@ small { font-size: .75em; }
 	 ********************************************************/
 
 	.list-social a {
-		background-image url( '../images/sprite.png' ); background-size: 35px 105px; }
+		background-image url( '../images/sprite-ui.png' ); background-size: 35px 105px; }
 }
 
