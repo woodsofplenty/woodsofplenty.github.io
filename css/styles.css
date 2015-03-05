@@ -376,12 +376,13 @@ small { font-size: .75em; }
 	 * Footer
 	 * 
 	 ********************************************************/
-	
+/*	
 	.span6col { width: 50%; /* 480/960 */ }
 	
-	.container-social { text-align: center; }
+/*	.container-social { text-align: center; }
 	
-	.container-legal { text-align: right; }
+	.container-legal { text-align: center; }
+*/
 }
 
 @media screen and (min-width: 960px) {
