@@ -463,8 +463,10 @@ small { font-size: .75em; }
 	 * Social List
 	 *  
 	 ********************************************************/
-
+/*
 	.list-social a {
 		background-image url( '../images/sprite-ui.png' ); background-size: 35px 105px; }
+*/
 }
+
 
