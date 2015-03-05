@@ -272,6 +272,16 @@ footer { background: #3A7C39; text-align: center; color: #fff; }
 
 .span6col { padding: 20px 2.08333333%; /* 20/960 */ }
 
+.newspaper{
+            padding-top: 20px;      
+            -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
+            -moz-columns: 100px 3; /* Firefox */
+            columns: 100px 3;
+            
+            -webkit-column-rule: 1px outset #3A7C39; /* Chrome, Safari, Opera */
+            -moz-column-rule: 1px outset #3A7C39; /* Firefox */
+            column-rule: 1px outset #3A7C39;}
+
 .container-social {  }
 
 .container-legal { }
@@ -367,9 +377,9 @@ small { font-size: .75em; }
 	 * 
 	 ********************************************************/
 	
-	.span6col { float: left; width: 50%; /* 480/960 */ }
+	.span6col { width: 50%; /* 480/960 */ }
 	
-	.container-social { text-align: left; }
+	.container-social { text-align: center; }
 	
 	.container-legal { text-align: right; }
 }
