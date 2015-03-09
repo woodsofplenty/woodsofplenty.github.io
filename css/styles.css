@@ -268,7 +268,7 @@ aside { padding: 0px 2.08333333%; }
  * 
  ********************************************************/
 
-footer { background: #3A7C39; text-align: center; color: #fff; }
+footer { background: #3A7C39; text-align: center; color: #fff; font-size: 0.8em; }
 
 .span6col { padding: 20px 2.08333333%; /* 20/960 */ }
 
@@ -286,7 +286,7 @@ footer { background: #3A7C39; text-align: center; color: #fff; }
 
 .container-legal { }
 
-small { font-size: .75em; }
+small { font-size: .9em; }
 
 
 /*
