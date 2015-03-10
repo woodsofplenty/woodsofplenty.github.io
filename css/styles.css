@@ -470,4 +470,141 @@ small { font-size: .9em; }
 */
 }
 
+/* css only show/hide
 
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body:before, body:after {
+    content: "";
+    display: table;
+}
+
+body:after { clear: both }
+
+p { margin-bottom: 1.3rem }
+
+article {
+    margin-bottom: 3rem;
+    position: relative;
+    *zoom: 1;
+}
+
+article:before, article:after {
+    content: "";
+    display: table;
+}
+
+article:after { clear: both }
+
+
+article section:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+section {
+    -webkit-transition: .125s linear;
+    -moz-transition: .125s linear;
+    -ms-transition: .125s linear;
+    -o-transition: .125s linear;
+    transition: .125s linear;
+}
+
+input[type=checkbox] {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    width: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+}
+
+[for="read_more"] {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_more"]:hover {
+    background: #3A2E1A;
+    color: rgb(255,255,255);
+}
+
+[for="read_more"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
+
+
+[for="read_more2"] {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: .65rem;
+    box-shadow: inset 1px 1px rgba(0, 0, 0, 0.1), inset -1px -1px rgba(0, 0, 0, 0.1);
+}
+
+[for="read_more2"]:hover {
+    background: #3A2E1A;
+    color: rgb(255,255,255);
+}
+
+[for="read_more2"] span:last-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ section {
+    display: block;
+    visibility: visible;
+    width: 100%;
+}
+
+input[type=checkbox]:checked ~ figure { width: 100% }
+
+input[type=checkbox]:checked ~ [for="read_more2"] span:first-of-type {
+    display: none;
+    visibility: hidden;
+}
+
+input[type=checkbox]:checked ~ [for="read_more2"] span:last-of-type {
+    display: block;
+    visibility: visible;
+}
