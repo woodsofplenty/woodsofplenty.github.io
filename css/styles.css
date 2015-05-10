@@ -272,6 +272,15 @@ footer { background: #3A7C39; text-align: center; color: #fff; font-size: 0.8em;
 
 .span6col { padding: 20px 2.08333333%; /* 20/960 */ }
 
+.span4col { padding: 10px 7.38%;
+			display: inline-block; 
+			vertical-align: text-top;
+			}
+.border-right{
+			border-right: solid #3a2e1a;
+			border-width: 1px;
+}
+
 .newspaper{
             padding-top: 20px;      
             -webkit-columns: 100px 3; /* Chrome, Safari, Opera */
