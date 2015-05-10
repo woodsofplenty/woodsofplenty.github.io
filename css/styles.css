@@ -208,6 +208,7 @@ header { padding: 10px 5.5%; /* 20/960 */ background: #ffffff; text-align: cente
 .selected a{
 	background-color:#3a2e1a;
 }
+
 /*
 .paragraph-text{
 	float: left;
@@ -276,10 +277,6 @@ footer { background: #3A7C39; text-align: center; color: #fff; font-size: 0.8em;
 			display: inline-block; 
 			vertical-align: text-top;
 			}
-.border-right{
-			border-right: solid #3a2e1a;
-			border-width: 1px;
-}
 
 .newspaper{
             padding-top: 20px;      
@@ -330,7 +327,6 @@ small { font-size: .9em; }
 	 .hero-phase_big { display: block; float:none; width: 100%; /* 440/920 */ }
 	 .hero-phase_small {display: none; float:none; width: 100%; /* 440/920 */ }
 
-
 }
 
 @media screen and (min-width: 768px) {
@@ -352,6 +348,10 @@ small { font-size: .9em; }
 		padding: 0px 2.08333333%;
 
 	}
+	.border-right{
+		border-right: solid #3a2e1a;
+		border-width: 1px;
+	 }
 
 	.hero-phase_big {float:none; width: 100%; /* 440/920 */ }
 	.hero-phase_small {display:none; float:none; width: 100%; /* 440/920 */ }
