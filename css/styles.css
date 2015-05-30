@@ -115,7 +115,6 @@ img {
 
 
 
-
 .center{
 	text-align:center;
 }
@@ -125,6 +124,12 @@ img {
 .alignright{
 	float:right;
 	margin-top: 7px;
+}
+
+.fruit {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*
