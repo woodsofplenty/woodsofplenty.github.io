@@ -165,6 +165,9 @@ h4, .h4 {
 h5, .h5 {
     margin-bottom: .2em; color: #105952; }
 
+h6, .h6 {
+	font-size: 0.7em;}
+
 
 .container-site {
 	margin: 0 auto;
