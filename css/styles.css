@@ -264,6 +264,9 @@ main, .head-main { padding: 0px 2.08333333%; }
 	padding-top:10px;
 }
 
+ .firstcharacter { float: left; color: #3A2E1A; font-size = "6"; line-height: 60px; padding-top: 2px; padding-right: 1px; padding-left: 3px; 
+}
+
 /*
  * Complementary Content
  * 
