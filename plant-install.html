@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+
+		<title>Woods of Plenty | Suburban biodiversity</title>
+
+		<meta name="description" content="Possibilities that Grow" />
+		<meta name="author" content="Woods of Plenty" />
+
+		<!-- force IE to latest rendering engine for each version; chrome frame reference -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<link rel="stylesheet" href="css/styles.css" />
+		<link href="css/lightbox.css" rel="stylesheet" />
+		<!-- build custom modernizr library for feature detection -->
+		<script type="text/javascript" src="js/modernizr-2.7.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/lightbox.min.js"></script>
+
+		<!-- google universal analytics -->
+		<script>
+  			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  			ga('create', 'UA-57701337-1', 'auto');
+  			ga('send', 'pageview');
+		</script>
+
+	</head>
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<body>
+
+		<!-- site container -->
+		<div id="top" class="container-site">
+			<!-- hero banner -->
+
+
+			<!-- header region -->
+			<header id="header">
+			<!-- site logo -->
+				<div class="logo">
+					<a href="index.html" title="Learn About Us"><img class="logo-img" src="images/logo.png" alt="Site Logo"/></a>
+				</div>
+			</header>
+
+			<!-- primary navigation -->
+			<div class="container-nav cf">
+				<nav role="navigation">
+					<ul class="list-nav">
+						<li class="odd"><a href="index.html" title="Learn About Us">Home</a></li>
+						<li class="even"><a href="worked-land.html" title="Worked Land">Worked Land</a></li>
+						<li class="odd"><a href="invasive-removal.html" title="Invasive Management">Invasive Management</a></li>
+						<li class="even"><a href="native-plants.html" title="Native Food">Native Food</a></li>
+						<li class="odd"><a href="woodland-possibilities.html" title="Woodland Possibilities">Woodland Possibilities</a></li>
+						<li class="even"><a href="contact-us.html" title="Contact Us">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div>
+
+
+			<!-- content region -->
+
+			<h2 class="center">Custom native landscape builder</h2>
+
+			
+			<div class="container-content cf">
+
+				<!-- main content -->
+
+		
+
+				<div class="head-main">
+					
+
+					<br>
+					
+					
+						<h1>Bringing Woods of Plenty&#0153; home</h1>
+						If your yard is outdated, plagued by invasive plants, or simply under landscaped we have the native plants that will add beauty and support native wildlife, making your yard more sustainable. Our streamlined approach gives you the best value for your dollar. Customize your own design or we will dynamically design a planting for you.
+
+					<br><br>
+					<div class="center">
+					<img src="images/price_table1.png" alt="Strip6" align="middle"/>
+					</div>
+
+
+					<br>
+					<br>
+						
+						<div style="box-sizing: border-box; border: 1px solid #999; height: 360px; width: 300px; margin: 0 auto; position: relative;"><h3 style="box-sizing: border-box; font-size: 18px; margin: 0; line-height: 1; padding: 11px 10px; background: #f2f2f2; border-bottom: 1px solid #999; min-height: 60px; text-align: center; position: absolute; top: 0px; width: 100%; font-family: Helvetica, Arial, sans-serif;"><a style="color: #f7901e; text-decoration: none;" href="http://www.homeadvisor.com/cost/landscape/install-landscaping/">Install Landscaping Project Cost </a></h3><iframe src="http://www.homeadvisor.com/cost/embed/iframe/small/?cgTask=145" style="border: none; width: 100%; display: block; height: 321px; box-sizing: border-box;"></iframe><div style="height: 37px; background: #f2f2f2; border-top: 1px solid #999; text-align: center; color: #666; line-height: 40px; text-transform: uppercase; font-family: Helvetica,Arial,sans-serif; font-size: 9px; box-sizing: border-box; ">Powered by <a href="http://www.homeadvisor.com/cost/"><img src="https://cdn.homeadvisor.com/images/consumer/designmine/designmine-header-logo-updated.png" alt="HomeAdvisor" height="15" style="top: 3px; position: relative;"></a></div></div>
+					
+					<br>
+					<br>
+						
+						
+					<button id="click1">Get Only Image</button>
+					<button id="click2">Get All</button>
+					<div id="street-view"></div>
+					<script>
+					var panorama;
+
+					click1.onclick=function(){
+					        $(".gm-style svg").css("visibility","hidden")
+					       html2canvas( $(".gm-style>div:first"),{
+					          useCORS: true,
+					          onrendered: function(canvas)
+					          {
+					            $(".gm-style svg").css("visibility","visible")
+					            var dataUrl= canvas.toDataURL('image/png');
+					            location.href=dataUrl
+					          }
+					        });
+					}
+
+					click2.onclick=function(){
+					       html2canvas( $("#street-view"),{
+					          useCORS: true,
+					          onrendered: function(canvas)
+					          {
+					            var dataUrl= canvas.toDataURL('image/png');
+					            location.href=dataUrl
+					          }
+					        });
+					}
+
+
+					function initialize() {
+					  panorama = new google.maps.StreetViewPanorama(
+					      document.getElementById('street-view'),
+					      {
+					        position: {lat: 37.869260, lng: -122.254811},
+					        pov: {heading: 165, pitch: 0},
+					        zoom: 1,
+					        mode : "html4",
+					      });
+					}
+					</script>
+					<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+					<script src='//cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js'></script>
+					<script async defer src="//maps.googleapis.com/maps/api/js?callback=initialize"></script>
+
+
+
+
+				</div>
+			</div>
+
+			<div class="center">
+					<img src="images/house_planting.png" alt="House planting" align="middle"/>
+					</div>
+					
+				<div class="hero-img">
+				<img src="images/plenty2.png" alt="plenty"/>
+				</div><br>
+			
+			<!-- footer -->
+			<footer id="footer" class="cf">	
+				
+			<br>
+			<div class="span4col border-right">
+				<a href="index.html" title="Home">Home</a><br>
+	            <a href="worked-land.html" title="Worked Land">Worked Land</a><br>
+	            <a href="invasive-removal.html" title="Invasive Management">Invasive Management</a><br>
+	            <a href="native-plants.html" title="Native Food">Native Food</a><br>
+	            <a href="woodland-possibilities.html" title="Woodland Possibilities">Woodland Possibilities</a>
+			</div>
+			<div class="span4col border-right">
+	            <a href="contact-us.html" title="Contact Us">Contact Us</a><br>
+				<a href="forest-products.html" title="Forest Products">Forest Products</a><br>
+				<a href="faq.html" title="FAQ">FAQ</a><br>
+				<a href="sponsor.html" title="Sponsor Woods of Plenty">Sponsor Woods of Plenty&#0153;</a><br>
+				&nbsp
+			</div>
+			<div class="span4col">
+				<small role="contentinfo">
+					Woods of Plenty &#0153; 2014<br>
+					P.O. Box 289<br>
+					Murrysville, PA 15668
+				</small>
+				<div class="container-social">
+					<!-- social nav -->
+					<ul class="list-inline list-social">
+						<li><a target="_blank" href="mailto:mail@woodsofplenty.com" class="social-email" title="Email Woods of Plenty">Email</a></li>
+						<li><a target="_blank" href="http://www.instagram.com/woodsofplenty" class="social-photos" title="Woods of Plenty on Instagram">Photos</a></li>
+					</ul>
+				</div>
+			</div>
+			<br><br><br>
+			</footer>
+		</div>
+
+
+	</body>
+</html>

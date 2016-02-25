@@ -275,6 +275,9 @@ main, .head-main { padding: 0px 2.08333333%; }
 aside { padding: 0px 2.08333333%; }
 
 
+.#street-view { height: 100%; }
+
+
 /*
  * Footer
  * 
